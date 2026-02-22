@@ -685,7 +685,8 @@ if parameter8_save_png > 0:
    filename = filename + str(x_end)
    path = f"/Users/thomasboettcher/Desktop/python test/40/{filename}"
    fig.savefig(path, dpi=300, bbox_inches="tight")
-
+   path = f"/Users/thomasboettcher/documents/Python/4_Python_CO2/41_CO2_T.png"
+   fig.savefig(path, dpi=300, bbox_inches="tight")
 # 9.9 close the plotted figure
 plt.close(fig)
 
